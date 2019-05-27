@@ -46,7 +46,7 @@ a,img{
 }
 
 a,a:visited,a:hover{
-    color:#5e5e5e; 
+    color:#ffffff;
     text-decoration:none;
 }
 
@@ -1447,7 +1447,11 @@ body{
     .foot_power h3{
         font-size: 0.8rem;
     }
-    
+    .jianli{
+        color: #ffffff !important;
+        cursor:pointer;
+
+    }
     #bar_container .bar.mint {
         border-bottom: 0.2rem solid #0d7e68;
     }
@@ -1475,4 +1479,6 @@ body{
     #bar_container .bar.green {
         border-bottom: 5px solid #dd481b;
     }
+
+
 }
