@@ -45,10 +45,16 @@ a,img{
     border:0;
 }
 
-a,a:visited,a:hover{
+a{
     color:#ffffff;
     text-decoration:none;
+    cursor: pointer;
 }
+a:hover {
+    color:blue;
+    text-decoration:none;
+}
+
 
 .clear{
     clear: both;
@@ -1451,6 +1457,10 @@ body{
         color: #ffffff !important;
         cursor:pointer;
 
+    }
+    .jianli:hover {
+        color:#FF00FF;
+        text-decoration:none;
     }
     #bar_container .bar.mint {
         border-bottom: 0.2rem solid #0d7e68;
